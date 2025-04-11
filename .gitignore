@@ -1,6 +1,7 @@
 #IDE files
 .idea/
 
+#Modules
 .idea/artifacts
 .idea/compiler.xml
 .idea/jarRepositories.xml
@@ -9,3 +10,14 @@
 .idea/modules
 *.iml
 *.ipr
+
+# Build outputs
+out/
+target/
+build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
