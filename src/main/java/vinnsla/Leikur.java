@@ -127,6 +127,10 @@ public class Leikur {
         return teningur.teningurProperty();
     }
 
+    public void stillaTening(int gildi) {
+        teningur.teningurProperty().set(gildi);
+    }
+
 
     public static void main(String[] args) {
 
