@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="998" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1825" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -138,6 +138,86 @@
         </mxCell>
         <mxCell id="KZbPzzV2hViHg_-TnSs8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-13" value="Leikur" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="-40" width="280" height="530" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-14" value="- leikmadur1 : Leikmadur" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="26" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-15" value="- leikmadur2 : Leikmadur" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="46" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-27" value="- slongurStigar: SlongurStigar" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="66" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-28" value="- teningur : Teningur" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="86" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-26" value="- fjoldiReita : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="106" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-29" value="- LeikLokid : SimpleBooleanProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="126" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-31" value="- Sigurvegari : SimpleStringProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="146" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-30" value="- HverALeik : SimpleStringProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="166" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="186" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-17" value="+ Leikur()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="194" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-25" value="+ SetLeikmenn(nafn1 : String, nafn2 : String) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="214" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-18" value="+ randomStart() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="234" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-19" value="+ leikaLeik() : boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="258" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-20" value="+ nyrLeikur() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="278" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-21" value="+ getHverALeik() : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="298" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-22" value="+ getSigurbegari() : String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="318" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-23" value="+ getSlongurStigar() : SlongurStigar" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="338" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-24" value="+ getLeikmadur1() : Leikmadur&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="358" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-35" value="+ getLeikmadur2() : Leikmadur&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="378" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-34" value="+ hverALeikProperty() : SimpleStringPoperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="398" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-33" value="+ sigurvegariProperty() : SimpleStringProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="418" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-36" value="+ leikLokidProperty() : SimpleBooleanProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="438" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-38" value="+ faersluSkilabodProperty() : SimpleStringProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="458" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-37" value="+ teningurProperty() : SimpleIntegerProperty" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="478" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KZbPzzV2hViHg_-TnSs8-39" value="+ stillaTening(gildi : int) : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KZbPzzV2hViHg_-TnSs8-13">
+          <mxGeometry y="498" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
