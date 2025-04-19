@@ -121,7 +121,7 @@ public class SlangaController {
         fxTeningurButton.disableProperty().bind(fxPlayButton.disableProperty().not());
 
         //Tengja skilaboð labels við viðeigandi breytur
-        fxSkilabod2.textProperty().bind(leikur.getSlongurStigar().FaersluSkilabodProperty());
+        fxSkilabod2.textProperty().bind(leikur.getSlongurStigar().faersluSkilabodProperty());
         fxSkilabod1.textProperty().bind(
                 Bindings.when(leikur.LeikLokidProperty())
                         .then(leikur.sigurvegariProperty())

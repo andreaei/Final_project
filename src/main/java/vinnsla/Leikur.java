@@ -11,17 +11,17 @@ public class Leikur {
     private final SlongurStigar slongurStigar = new SlongurStigar();
     private final Teningur teningur = new Teningur();
     final int fjoldiReita = 24;
-    private final SimpleBooleanProperty LeikLokid;
-    private final SimpleStringProperty Sigurvegari;
-    private final SimpleStringProperty HverALeik;
+    private final SimpleBooleanProperty leikLokid;
+    private final SimpleStringProperty sigurvegari;
+    private final SimpleStringProperty hverALeik;
 
 
 
 
     public Leikur(){
-        this.LeikLokid = new SimpleBooleanProperty(true);
-        this.Sigurvegari = new SimpleStringProperty("");
-        this.HverALeik = new SimpleStringProperty("");
+        this.leikLokid = new SimpleBooleanProperty(true);
+        this.sigurvegari = new SimpleStringProperty("");
+        this.hverALeik = new SimpleStringProperty("");
     }
 
     public void setLeikmenn(String nafn1, String nafn2){
@@ -33,7 +33,7 @@ public class Leikur {
     public void randomStart(){
         int randomStart = 1 + (int)(Math.random() * ((2 - 1) + 1));
         String fyrstiLeikmadur = ((randomStart==1) ? leikmadur1.getNafn() : leikmadur2.getNafn());
-        HverALeik.set(fyrstiLeikmadur);
+        hverALeik.set(fyrstiLeikmadur);
     }
 
     /**
@@ -59,15 +59,15 @@ public class Leikur {
         //færa leikmanninn, athuga sigur og skipta í næsta leikmann
         int nyrReitur = leikmadurCurrent.getReitur()+teningur.getTening();
 
-        nyrReitur = slongurStigar.LendingarReitur(nyrReitur, leikmadurCurrent.getNafn()); //breyta lendingareit ef stigi/slanga
+        nyrReitur = slongurStigar.lendingarReitur(nyrReitur, leikmadurCurrent.getNafn()); //breyta lendingareit ef stigi/slanga
         leikmadurCurrent.faera(nyrReitur,fjoldiReita);
         if(leikmadurCurrent.getReitur() == 24){
-            Sigurvegari.set(getHverALeik());
+            sigurvegari.set(getHverALeik());
             System.out.println("Win");
-            LeikLokid.set(true);
+            leikLokid.set(true);
             return true;
         }
-        HverALeik.set(leikmadurNext.getNafn());
+        hverALeik.set(leikmadurNext.getNafn());
 
         System.out.println(leikmadurCurrent.getNafn() + leikmadurCurrent.getReitur());
         System.out.println(leikmadurNext.getNafn() + leikmadurNext.getReitur());
@@ -80,19 +80,19 @@ public class Leikur {
      */
 
     public void nyrLeikur(){
-        LeikLokid.set(false);
-        Sigurvegari.set("");
+        leikLokid.set(false);
+        sigurvegari.set("");
         leikmadur1.setReitur(0);
         leikmadur2.setReitur(0);
         randomStart();
     }
 
     public String getHverALeik(){
-        return HverALeik.get();
+        return hverALeik.get();
     }
 
     public String getSigurvegari(){
-        return Sigurvegari.get();
+        return sigurvegari.get();
     }
 
     public SlongurStigar getSlongurStigar(){
@@ -108,19 +108,19 @@ public class Leikur {
     }
 
     public SimpleStringProperty hverALeikProperty(){
-        return HverALeik;
+        return hverALeik;
     }
 
     public SimpleStringProperty sigurvegariProperty(){
-        return Sigurvegari;
+        return sigurvegari;
     }
 
     public SimpleBooleanProperty LeikLokidProperty(){
-        return LeikLokid;
+        return leikLokid;
     }
 
     public SimpleStringProperty faersluSkilabodProperty(){
-        return slongurStigar.FaersluSkilabodProperty();
+        return slongurStigar.faersluSkilabodProperty();
     }
 
     public SimpleIntegerProperty teningurProperty(){

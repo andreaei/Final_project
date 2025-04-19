@@ -23,7 +23,7 @@ public class SlongurStigar {
 
     }
 
-    public int LendingarReitur(int reitur, String leikmadur){
+    public int lendingarReitur(int reitur, String leikmadur){
         int nyrReitur = slongurStigar.getOrDefault(reitur,reitur);
         if (reitur >= 24) {
             faersluSkilabod.set(leikmadur + " þú vannst!!!");
@@ -39,7 +39,7 @@ public class SlongurStigar {
         return nyrReitur;
     }
 
-    public SimpleStringProperty FaersluSkilabodProperty(){
+    public SimpleStringProperty faersluSkilabodProperty(){
         return faersluSkilabod;
     }
 
