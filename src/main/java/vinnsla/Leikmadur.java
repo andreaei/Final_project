@@ -42,12 +42,7 @@ public class Leikmadur {
      * @param max mark-reitur á borðinu
      */
     public void faera (int reitur, int max) {
-        if(reitur >= max){
-            setReitur(max);
-        }
-        else {
-            setReitur(reitur);
-        }
+        setReitur(Math.min(reitur, max));
 
     }
 

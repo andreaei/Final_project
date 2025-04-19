@@ -10,7 +10,7 @@ import java.io.IOException;
 public class SlangaApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(SlangaApplication.class.getResource("slanga-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(SlangaApplication.class.getResource("/vidmot/slanga-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         scene.getStylesheets().add(getClass().getResource("/vidmot/css/SlonguStyle.css").toExternalForm());
 
